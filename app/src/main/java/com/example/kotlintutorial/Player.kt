@@ -1,18 +1,15 @@
 package com.example.kotlintutorial
 
 class Player(val name: String, var level: Int = 1, var lives: Int = 3, var score: Int = 0) {
-var weapon: Weapon = Weapon("Fist",1)
+    var weapon: Weapon = Weapon("Fist", 1)
     val inventory = ArrayList<Loot>()
 
     fun show() {
-        println("""
-            name: $name
-            lives: $lives
-            level: $level
-            score: $score
-            weapon: ${weapon.name}
-            damage: ${weapon.damageInflicted}
-            """)
+        if (lives > 0) {
+            println("$name is slive")
+        } else {
+            println("$name is dead")
+        }
     }
 
     override fun toString(): String {
@@ -26,7 +23,7 @@ var weapon: Weapon = Weapon("Fist",1)
             """
     }
 
-    fun showInventory(){
+    fun showInventory() {
         println("$name's Inventory")
         println(inventory.get(0))
         println("==========================")
