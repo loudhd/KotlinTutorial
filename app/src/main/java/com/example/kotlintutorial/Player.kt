@@ -14,4 +14,10 @@ var weapon: Weapon = Weapon("Fist",1)
             damage: ${weapon.damageInflicted}
             """)
     }
+
+    fun showInventory(){
+        println("$name's Inventory")
+        println(inventory.get(0))
+        println("==========================")
+    }
 }
