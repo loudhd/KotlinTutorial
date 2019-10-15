@@ -22,6 +22,9 @@ class Player(val name: String, var level: Int = 1, var lives: Int = 3, var score
  
             """
     }
+    fun  getLoot (item: Loot){
+        inventory.add(item)
+    }
 
     fun showInventory() {
         println("$name's Inventory")
