@@ -1,4 +1,5 @@
 import com.example.kotlintutorial.Player
+import com.example.kotlintutorial.Weapon
 
 fun main(arg: Array<String>) {
     /*println("Hello world")
@@ -78,6 +79,8 @@ fun main(arg: Array<String>) {
         val one2watch = Player("Ace",2, 5, 1000)
         gr8.show()
         one2watch.show()
+        println(one2watch.weapon.name.toUpperCase())
+        println(one2watch.weapon.damageInflicted)
     }
 
 }
