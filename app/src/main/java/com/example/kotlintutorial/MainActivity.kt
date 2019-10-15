@@ -144,16 +144,20 @@ fun main(arg: Array<String>) {
         }*/
 
     }*/
-    val enemy = Enemy("test enemy",10,3)
+    /*val enemy = Enemy("test enemy",10,3)
     println(enemy)
     enemy.takeDamage(4)
     println(enemy)
     enemy.takeDamage(11)
-    println(enemy)
+    println(enemy)*/
 
     val uglyTroll= Troll("Ugly Troll ")
     println(uglyTroll)
     uglyTroll.takeDamage(8)
     println(uglyTroll)
 
+    val  vlad = Vampyre("Vlad")
+    println(vlad)
+    vlad.takeDamage(8)
+    println(vlad)
 }
