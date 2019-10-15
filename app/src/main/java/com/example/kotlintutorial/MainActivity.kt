@@ -153,5 +153,7 @@ fun main(arg: Array<String>) {
 
     val uglyTroll= Troll("Ugly Troll ",27,1)
     println(uglyTroll)
+    uglyTroll.takeDamage(8)
+    println(uglyTroll)
 
 }
