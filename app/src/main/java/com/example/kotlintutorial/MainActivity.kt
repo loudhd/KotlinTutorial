@@ -109,6 +109,10 @@ fun main(arg: Array<String>) {
         val chestArmor = Loot("+3 Chest Armor",LootType.ARMOR,80.00)
         tim.inventory.add(chestArmor)
         tim.showInventory()
+
+        tim.inventory.add(Loot("Ring of Protection +2 ",LootType.RING,40.25))
+        tim.inventory.add(Loot("Invisibility Potiom",LootType.POTION,35.95))
+        tim.showInventory()
         println(tim.toString())
     }
 
