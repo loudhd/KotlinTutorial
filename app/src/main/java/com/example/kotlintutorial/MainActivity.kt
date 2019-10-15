@@ -18,4 +18,11 @@ fun main(arg:Array<String>){
     val oranges: Int = 5
     var  frult : Int = apples - oranges
     println(frult)
+
+    println(apples/ 4)
+
+    println()
+    val week: Int = 128
+    val  year: Double = week / 52.0
+    println(year)
 }
