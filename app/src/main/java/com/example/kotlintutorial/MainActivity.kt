@@ -116,9 +116,18 @@ fun main(arg: Array<String>) {
 
         if (tim.dropLoot(redPotion)){
             tim.showInventory()
+        }else {
+            println("You don't heve a ${redPotion.name}")
+        }
+
+        val bluePotion = Loot("Blue Potion ",LootType.POTION,6.00)
+        if (tim.dropLoot(bluePotion)){
+            tim.showInventory()
+        }else{
+            println("You don't heve ${bluePotion.name}")
         }
         println(tim.toString())
-        
+
         /*for (i in 10 downTo 0 step 2){
             println("$i squared is ${i*1}")
         }
