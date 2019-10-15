@@ -160,4 +160,7 @@ fun main(arg: Array<String>) {
     println(vlad)
     vlad.takeDamage(8)
     println(vlad)
+
+    val  dracula = VampyreKing("dracula")
+    println(dracula)
 }
