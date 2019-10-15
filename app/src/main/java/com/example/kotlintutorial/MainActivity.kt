@@ -118,6 +118,11 @@ fun main(arg: Array<String>) {
         for (i in 10 downTo 0 step 2){
             println("$i squared is ${i*1}")
         }
+        for (value in 3..100 step 3){
+            if (value % 5 == 0 ){
+                println(value)
+            }
+        }
 
     }
 
