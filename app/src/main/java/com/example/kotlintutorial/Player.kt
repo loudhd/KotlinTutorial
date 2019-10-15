@@ -15,6 +15,17 @@ var weapon: Weapon = Weapon("Fist",1)
             """)
     }
 
+    override fun toString(): String {
+        return """
+            name: $name
+            lives: $lives
+            level: $level
+            score: $score
+            weapon: ${weapon.name}
+            damage: ${weapon.damageInflicted}
+            """
+    }
+
     fun showInventory(){
         println("$name's Inventory")
         println(inventory.get(0))
