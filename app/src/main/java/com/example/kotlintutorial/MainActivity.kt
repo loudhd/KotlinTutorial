@@ -9,15 +9,15 @@ fun main(arg:Array<String>){
 
     var timweeklySalary : Int= 32
     var monthly : Int = timweeklySalary * 4
-    println(timweeklySalary)
-    println(monthly)
+    println("Tim's weekly salaly is${timweeklySalary}")
+    println("monthly, that cones to $monthly ")
 
     println()
 
     val apples: Int = 6
     val oranges: Int = 5
     var  frult : Int = apples - oranges
-    println(frult)
+    println("$apples apples - $oranges oranges leaves $frult place(s) of fruit")
 
     println("A quarter of the apples is ${apples / 4}")
 
