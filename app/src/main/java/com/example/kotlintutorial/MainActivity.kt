@@ -7,8 +7,8 @@ fun main(arg:Array<String>){
     tim = "tim Buchalka"
     println(tim)
 
-    var timSalary : Int= 32
-    var monthly : Int = timSalary * 4
-    println(timSalary)
+    var timweeklySalary : Int= 32
+    var monthly : Int = timweeklySalary * 4
+    println(timweeklySalary)
     println(monthly)
 }
