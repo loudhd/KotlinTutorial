@@ -67,7 +67,7 @@ fun main(arg: Array<String>) {
     println(massage)*/
 
     fun main(args: Array<String>) {
-        /* val tim = Player("Tim")
+        val tim = Player("Tim")
 //    println(tim.name)
 //    println(tim.lives)
 //    println(tim.level)
@@ -105,24 +105,24 @@ fun main(arg: Array<String>) {
         tim.show()
 
         val redPotion = Loot("Red Potion",LootType.POTION,7.50)
-        tim.inventory.add(redPotion)
+        tim.getLoot(redPotion)
         val chestArmor = Loot("+3 Chest Armor",LootType.ARMOR,80.00)
-        tim.inventory.add(chestArmor)
+        tim.getLoot(chestArmor)
         tim.showInventory()
 
-        tim.inventory.add(Loot("Ring of Protection +2 ",LootType.RING,40.25))
-        tim.inventory.add(Loot("Invisibility Potiom",LootType.POTION,35.95))
+        tim.getLoot(Loot("Ring of Protection +2 ",LootType.RING,40.25))
+        tim.getLoot(Loot("Invisibility Potiom",LootType.POTION,35.95))
         tim.showInventory()
-        println(tim.toString())*/
+        println(tim.toString())
 
-        for (i in 10 downTo 0 step 2){
+        /*for (i in 10 downTo 0 step 2){
             println("$i squared is ${i*1}")
         }
         for (value in 3..100 step 3){
             if (value % 5 == 0 ){
                 println(value)
             }
-        }
+        }*/
 
     }
 
