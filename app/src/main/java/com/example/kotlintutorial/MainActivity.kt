@@ -16,6 +16,6 @@ fun main(arg:Array<String>){
 
     val apples: Int = 6
     val oranges: Int = 5
-    var  frult : Int = apples + oranges
+    var  frult : Int = apples - oranges
     println(frult)
 }
