@@ -67,7 +67,7 @@ fun main(arg: Array<String>) {
     println(massage)*/
 
     fun main(args: Array<String>) {
-        val tim = Player("Tim")
+        /* val tim = Player("Tim")
 //    println(tim.name)
 //    println(tim.lives)
 //    println(tim.level)
@@ -113,7 +113,12 @@ fun main(arg: Array<String>) {
         tim.inventory.add(Loot("Ring of Protection +2 ",LootType.RING,40.25))
         tim.inventory.add(Loot("Invisibility Potiom",LootType.POTION,35.95))
         tim.showInventory()
-        println(tim.toString())
+        println(tim.toString())*/
+
+        for (i in 1..10){
+            println("$i squared is ${i*1}")
+        }
+
     }
 
 }
