@@ -163,18 +163,22 @@ fun main(arg: Array<String>) {
 
     val  dracula = VampyreKing("dracula")
     println(dracula)
-    while (dracula.lives> 0) {
-        if (dracula.dodges()){
-            continue;
+    dracula.lives = 0
+    do {
+        if (dracula.dodges()) {
+                dracula.lives+=1
+                 continue;
+             }
+             if (dracula.runAwey()) {
+                 println("Dracula run awey ")
+                 break
+             } else {
+                 dracula.takeDamage(12)
+             }
+         } while(dracula.lives> 0)
+            println("========================")
         }
-        if (dracula.runAwey()){
-            println("Dracula run awey ")
-            break
-        }else{
-            dracula.takeDamage(12)
-        }
-        println("========================")
-    }
+
 
     /*val conan = Player("Conan")
     conan.getLoot(Loot("Invisibility", LootType.POTION, 4.0))
