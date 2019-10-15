@@ -25,4 +25,6 @@ fun main(arg:Array<String>){
     val week: Int = 128
     val  year: Double = week / 52.0
     println("130 weeks in year is : " + year)
+
+    println("my name is $tim")
 }
