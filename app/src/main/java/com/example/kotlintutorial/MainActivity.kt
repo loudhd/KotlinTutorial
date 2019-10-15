@@ -92,7 +92,8 @@ fun main(arg: Array<String>) {
         println(gr8.weapon.damageInflicted)
 
         tim.weapon= Weapon("Sword", 18 )
-        println(tim.weapon.name)
+        //println(tim.weapon.name)
+        tim.show()
 
         tim.weapon = Weapon("Spear",14)
         println(tim.weapon.name)
