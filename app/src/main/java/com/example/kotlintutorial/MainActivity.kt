@@ -90,6 +90,12 @@ fun main(arg: Array<String>) {
         axe.damageInflicted = 24
         println(axe.damageInflicted)
         println(gr8.weapon.damageInflicted)
+
+        tim.weapon= Weapon("Sword", 18 )
+        println(tim.weapon.name)
+
+        tim.weapon = Weapon("Spear",14)
+        println(tim.weapon.name)
     }
 
 }
