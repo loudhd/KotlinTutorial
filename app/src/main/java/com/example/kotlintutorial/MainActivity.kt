@@ -29,13 +29,19 @@ fun main(arg: Array<String>) {
 
     println("my name is $tim")
     println("jim is $jim")*/
-    val  lives = 3
+    /*val lives = 3
 
-    var  isGameOver = (lives < 3)
-    if (isGameOver ){
+    var isGameOver = (lives < 3)
+    println(isGameOver)
+
+    if (isGameOver) {
         println("Game over ")
-    }else{
+    } else {
         println("you're still slive!")
-    }
+    }*/
+
+    println("How old are you: ")
+    val age = readLine()!!.toInt()
+    println("Age is $age")
 
 }
