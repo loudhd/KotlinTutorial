@@ -2,20 +2,20 @@ fun main(arg:Array<String>){
     println("Hello world")
     println("My first Kotlin program")
 
-    val jim : String = "jame T kirk"
-    val tim: String = "tim Buchalka"
+    val jim  = "jame T kirk"
+    val tim = "tim Buchalka"
     println(tim)
 
-    val timweeklySalary : Int= 32
-    val monthly : Int = timweeklySalary * 4
+    val timweeklySalary = 32
+    val monthly = timweeklySalary * 4
     println("Tim's weekly salaly is${timweeklySalary}")
     println("monthly, that cones to $monthly ")
 
     println()
 
-    val apples: Int = 6
-    val oranges: Int = 5
-    val  frult : Int = apples - oranges
+    val apples = 6
+    val oranges= 5
+    val  frult  = apples - oranges
     println("$apples apples - $oranges oranges leaves $frult place(s) of fruit")
 
     println("A quarter of the apples is ${apples / 4}")
