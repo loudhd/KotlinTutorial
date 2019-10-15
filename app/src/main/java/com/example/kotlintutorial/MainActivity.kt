@@ -151,7 +151,7 @@ fun main(arg: Array<String>) {
     enemy.takeDamage(11)
     println(enemy)*/
 
-    /* val uglyTroll= Troll("Ugly Troll ")
+    /*val uglyTroll= Troll("Ugly Troll ")
     println(uglyTroll)
     uglyTroll.takeDamage(8)
     println(uglyTroll)
@@ -159,7 +159,7 @@ fun main(arg: Array<String>) {
     val  vlad = Vampyre("Vlad")
     println(vlad)
     vlad.takeDamage(8)
-    println(vlad)
+    println(vlad)*/
 
     val  dracula = VampyreKing("dracula")
     println(dracula)
@@ -173,9 +173,10 @@ fun main(arg: Array<String>) {
         }else{
             dracula.takeDamage(12)
         }
-    }*/
+        println("========================")
+    }
 
-    val conan = Player("Conan")
+    /*val conan = Player("Conan")
     conan.getLoot(Loot("Invisibility", LootType.POTION, 4.0))
     conan.getLoot(Loot("Mithril", LootType.ARMOR, 12.0))
     conan.getLoot(Loot("Ring of speed", LootType.RING, 25.0))
@@ -186,6 +187,6 @@ fun main(arg: Array<String>) {
     conan.getLoot(Loot("Gold Ring", LootType.RING, 12.0))
     conan.getLoot(Loot("Health Potion", LootType.POTION, 3.0))
     conan.getLoot(Loot("Silver Ring", LootType.RING, 6.0))
-    conan.showInventory()
+    conan.showInventory()*/
 
 }
