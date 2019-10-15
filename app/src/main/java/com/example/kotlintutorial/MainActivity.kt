@@ -163,5 +163,7 @@ fun main(arg: Array<String>) {
 
     val  dracula = VampyreKing("dracula")
     println(dracula)
-    dracula.takeDamage(12)
+    while (dracula.lives> 0) {
+        dracula.takeDamage(12)
+    }
 }
