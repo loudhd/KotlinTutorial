@@ -4,7 +4,7 @@ fun main(arg:Array<String>){
 
 
     var tim: String
-    tim = "32"
+    tim = "tim Buchalka"
     println(tim)
 
     var timSalary : Int= 32
