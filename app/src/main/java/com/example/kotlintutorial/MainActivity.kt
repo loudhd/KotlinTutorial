@@ -44,4 +44,12 @@ fun main(arg: Array<String>) {
     val age = readLine()!!.toInt()
     println("Age is $age")
 
+    val massage: String
+    if (age < 18) {
+        massage = "You're young to vete"
+
+    } else if (age == 100) {
+        massage = "Congratulations "
+    }
+
 }
