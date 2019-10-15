@@ -31,7 +31,8 @@ fun main(arg: Array<String>) {
     println("jim is $jim")*/
     val  lives = 3
 
-    if (lives < 1){
+    var  isGameOver = (lives < 3)
+    if (isGameOver ){
         println("Game over ")
     }else{
         println("you're still slive!")
