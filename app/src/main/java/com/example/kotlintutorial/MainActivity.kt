@@ -1,9 +1,6 @@
 import android.os.Build
 import androidx.annotation.RequiresApi
-import com.example.kotlintutorial.Loot
-import com.example.kotlintutorial.LootType
-import com.example.kotlintutorial.Player
-import com.example.kotlintutorial.Weapon
+import com.example.kotlintutorial.*
 
 fun main(arg: Array<String>) {
     /*println("Hello world")
@@ -68,7 +65,7 @@ fun main(arg: Array<String>) {
     }*/
     println(massage)*/
 
-    @RequiresApi(Build.VERSION_CODES.N)
+  /*  @RequiresApi(Build.VERSION_CODES.N)
     fun main(args: Array<String>) {
         val tim = Player("Tim")
 //    println(tim.name)
@@ -134,7 +131,8 @@ fun main(arg: Array<String>) {
          }else{
              println("you don't have an Invisibility Potiom")
          }
-     
+
+
 
         /*for (i in 10 downTo 0 step 2){
             println("$i squared is ${i*1}")
@@ -145,6 +143,12 @@ fun main(arg: Array<String>) {
             }
         }*/
 
-    }
+    }*/
+    val enemy = Enemy("test enemy",10,3)
+    println(enemy)
+    enemy.takeDamage(4)
+    println(enemy)
+    enemy.takeDamage(11)
+    println(enemy)
 
 }
