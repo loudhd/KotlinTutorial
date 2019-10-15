@@ -11,4 +11,8 @@ class Enemy (val  name:String,var hitPointa:Int,var lives:Int){
             println("$name lest a lift")
         }
     }
+
+    override fun toString(): String {
+        return "Name: $name , Hitpoints $hitPointa, Lives : $lives"
+    }
 }
