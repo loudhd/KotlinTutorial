@@ -8,6 +8,8 @@ var weapon: Weapon = Weapon("Fist",1)
             lives: $lives
             level: $level
             score: $score
+            weapon: ${weapon.name}
+            damage: ${weapon.damageInflicted}
             """)
     }
 }
