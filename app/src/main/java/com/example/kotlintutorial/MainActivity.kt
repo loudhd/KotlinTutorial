@@ -45,15 +45,20 @@ fun main(arg: Array<String>) {
     println("Age is $age")
 
     val massage: String
-    massage = if (age < 18) {
+    massage = when (age < 18) {
+        age < 18 -> "You're young to vete"
+        age == 100 -> "Congratulations"
+        else -> "You can vete"
+    }
+    /*massage = if (age < 18) {
         "You're young to vete"
 
     } else if (age == 100) {
-       "Congratulations "
+        "Congratulations "
     }else{
         "You can vete"
 
-    }
+    }*/
     println(massage)
 
 }
