@@ -164,6 +164,10 @@ fun main(arg: Array<String>) {
     val  dracula = VampyreKing("dracula")
     println(dracula)
     while (dracula.lives> 0) {
-        dracula.takeDamage(12)
+        if (dracula.runAwey()){
+            println("Dracula run awey ")
+        }else{
+            dracula.takeDamage(12)
+        }
     }
 }
