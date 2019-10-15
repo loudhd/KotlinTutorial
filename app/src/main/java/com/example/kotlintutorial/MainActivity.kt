@@ -3,6 +3,7 @@ fun main(arg:Array<String>){
     println("My first Kotlin program")
 
 
-    var tim: String = "Tim Buchalka"
+    var tim: String
+    tim = "Tim Buchalka"
     println(tim)
 }
