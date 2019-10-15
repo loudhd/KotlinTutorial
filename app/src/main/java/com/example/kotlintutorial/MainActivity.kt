@@ -1,3 +1,5 @@
+import android.os.Build
+import androidx.annotation.RequiresApi
 import com.example.kotlintutorial.Loot
 import com.example.kotlintutorial.LootType
 import com.example.kotlintutorial.Player
@@ -66,6 +68,7 @@ fun main(arg: Array<String>) {
     }*/
     println(massage)*/
 
+    @RequiresApi(Build.VERSION_CODES.N)
     fun main(args: Array<String>) {
         val tim = Player("Tim")
 //    println(tim.name)
@@ -127,6 +130,7 @@ fun main(arg: Array<String>) {
             println("You don't heve ${bluePotion.name}")
         }
         tim.dropLoot("Invisibility Potiom")
+        tim.showInventory()
         println(tim.toString())
 
         /*for (i in 10 downTo 0 step 2){
