@@ -113,8 +113,12 @@ fun main(arg: Array<String>) {
         tim.getLoot(Loot("Ring of Protection +2 ",LootType.RING,40.25))
         tim.getLoot(Loot("Invisibility Potiom",LootType.POTION,35.95))
         tim.showInventory()
-        println(tim.toString())
 
+        if (tim.dropLoot(redPotion)){
+            tim.showInventory()
+        }
+        println(tim.toString())
+        
         /*for (i in 10 downTo 0 step 2){
             println("$i squared is ${i*1}")
         }
