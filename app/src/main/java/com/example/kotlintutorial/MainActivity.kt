@@ -126,6 +126,7 @@ fun main(arg: Array<String>) {
         }else{
             println("You don't heve ${bluePotion.name}")
         }
+        tim.dropLoot("Invisibility Potiom")
         println(tim.toString())
 
         /*for (i in 10 downTo 0 step 2){
