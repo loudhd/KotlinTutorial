@@ -115,7 +115,7 @@ fun main(arg: Array<String>) {
         tim.showInventory()
         println(tim.toString())*/
 
-        for (i in 1..10){
+        for (i in 10 downTo 0){
             println("$i squared is ${i*1}")
         }
 
