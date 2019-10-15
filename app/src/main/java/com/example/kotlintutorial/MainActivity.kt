@@ -166,6 +166,7 @@ fun main(arg: Array<String>) {
     while (dracula.lives> 0) {
         if (dracula.runAwey()){
             println("Dracula run awey ")
+            break
         }else{
             dracula.takeDamage(12)
         }
