@@ -50,6 +50,10 @@ fun main(arg: Array<String>) {
 
     } else if (age == 100) {
         massage = "Congratulations "
+    }else{
+        massage = "You can vete"
+
     }
+    println(massage)
 
 }
