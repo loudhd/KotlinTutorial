@@ -8,4 +8,7 @@ class VampyreKing (name: String) : Vampyre(name) {
     override fun takeDamage(damage: Int) {
         super.takeDamage(damage/2)
     }
+    fun runAwey():Boolean{
+        return lives<2
+    }
 }
