@@ -129,9 +129,12 @@ fun main(arg: Array<String>) {
         }else{
             println("You don't heve ${bluePotion.name}")
         }
-        tim.dropLoot("Invisibility Potiom")
-        tim.showInventory()
-        println(tim.toString())
+         if (tim.dropLoot("Invisibility Potiom")) {
+             tim.showInventory()
+         }else{
+             println("you don't have an Invisibility Potiom")
+         }
+     
 
         /*for (i in 10 downTo 0 step 2){
             println("$i squared is ${i*1}")
